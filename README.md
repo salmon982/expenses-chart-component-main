@@ -30,12 +30,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop](./Desktop.png)
+![Desktop - Active](./Desktop%20-%20Active.png)
+![Mobile](./Mobile.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://salmon982-expenses-chart.netlify.app/)
 
 ## My process
 
