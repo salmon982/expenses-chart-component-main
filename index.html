@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+
+<body>
+  <main>
+    <section class="balance">
+      <div class="balance-amount">
+        <h3>My balance</h3>
+        <h1>$921.48</h1>
+      </div>
+      <img src="./images/logo.svg" alt="Logo">
+    </section>
+    <section class="spending">
+      <div class="spending-graph">
+        <h1>Spending - Last 7 days</h1>
+        <div class="graph">
+          <div class="mon single-day">
+            <div class="indicator">$17.45</div>
+            <div class="actual-graph"></div>
+            <div class="day">mon</div>
+          </div>
+          <div class="tue single-day">
+            <div class="indicator">$34.91</div>
+            <div class="actual-graph"></div>
+            <div class="day">tue</div>
+          </div>
+          <div class="wed single-day">
+            <div class="indicator">$52.36</div>
+            <div class="actual-graph highest"></div>
+            <div class="day">wed</div>
+          </div>
+          <div class="thu single-day">
+            <div class="indicator">$31.07</div>
+            <div class="actual-graph"></div>
+            <div class="day">thu</div>
+          </div>
+          <div class="fri single-day">
+            <div class="indicator">$23.39</div>
+            <div class="actual-graph"></div>
+            <div class="day">fri</div>
+          </div>
+          <div class="sat single-day">
+            <div class="indicator">$43.28</div>
+            <div class="actual-graph"></div>
+            <div class="day">sat</div>
+          </div>
+          <div class="sun single-day">
+            <div class="indicator">$25.48</div>
+            <div class="actual-graph"></div>
+            <div class="day">sun</div>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="spending-amount">
+        <div class="total">
+          <h3>Total this month</h3>
+          <h1>$478.33</h1>
+        </div>
+        <div class="from-last-month">
+          <h3 class="percent">+2.4%</h3>
+          <h3 class="info">from last month</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

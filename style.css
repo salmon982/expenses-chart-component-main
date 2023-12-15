@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,600;9..40,700&display=swap');
+
+:root {
+  --soft-red: hsl(10, 79%, 65%);
+  --cyan: hsl(186, 34%, 60%);
+  --dark-brown: hsl(25, 47%, 15%);
+  --medium-brown: hsl(28, 10%, 53%);
+  --cream: hsl(27, 66%, 92%);
+  --very-pale-orange: hsl(33, 100%, 98%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  background-color: var(--cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  max-width: 540px;
+}
+
+.balance {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--soft-red);
+  border-radius: 0.5em;
+  color: var(--very-pale-orange);
+  padding: 1em 1.3em 1.1em 1.2em;
+  margin-bottom: 0.8em;
+}
+
+.balance-amount h3 {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: var(--cream);
+  padding-bottom: 0.375em;
+}
+
+.balance-amount h1 {
+  font-weight: 600;
+  font-size: 1.45rem;
+}
+
+img {
+  max-width: 100%;
+  height: 2.15em;
+  width: auto;
+}
+
+.spending {
+  background-color: var(--very-pale-orange);
+  border-radius: 0.5em;
+  color: var(--dark-brown);
+  padding: 1.25em 1.1em 1.35em 1.1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.spending-graph {
+  margin-bottom: 1.35em;
+}
+
+.spending-graph h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2em;
+}
+
+.graph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1.5em;
+}
+
+.single-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicator {
+  display: none;
+}
+
+.actual-graph {
+  background-color: var(--soft-red);
+  width: 1.8em;
+  border-radius: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+.actual-graph:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.highest {
+  background-color: var(--cyan);
+}
+
+.day {
+  color: var(--medium-brown);
+  font-size: 0.7rem;
+}
+
+hr {
+  border: 1px solid var(--cream)
+}
+
+.spending-amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+}
+
+.total h3 {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: var(--medium-brown);
+  margin-bottom: 0.25em;
+}
+
+.total h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.from-last-month {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
+.percent {
+  font-size: 1rem;
+}
+
+.info {
+  font-size: 1rem;
+  color: var(--medium-brown);
+  font-weight: 400;
+}
+
+@media all and (min-width: 800px) {
+  .balance {
+    padding: 1.75em 2em 1.35em 1.75em;
+    border-radius: 1.2em;
+    margin-bottom: 1em;
+  }
+
+  .balance-amount h3 {
+    font-size: 1.05rem;
+    padding-bottom: 0.425em;
+  }
+
+  .balance-amount h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  img {
+    height: 2.65em;
+  }
+
+  .spending {
+    padding: 1.5em 2em 2.75em 2em;
+    border-radius: 1.25em;
+  }
+
+  .spending-graph {
+    margin-bottom: 1.75em;
+  }
+
+  .spending-graph h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+  }
+
+  .graph {
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
+  .indicator {
+    color: white;
+    background-color: var(--dark-brown);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.5em 0.445em;
+    border-radius: 0.25em;
+    margin-bottom: 0.5em;
+    opacity: 0;
+    display: block;
+  }
+
+  .actual-graph {
+    width: 2.75em;
+    border-radius: 0.3em;
+    margin-bottom: 0.6em;
+  }
+
+  .day {
+    font-size: 0.9rem;
+  }
+
+  .total h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0;
+  }
+
+  .total h1 {
+    font-size: 3.15rem;
+    font-weight: 700;
+  }
+
+  .percent {
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+
+  .info {
+    font-size: 1.15rem;
+  }
+}
