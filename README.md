@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Responsive Expenses Chart](https://www.frontendmentor.io/solutions/responsive-expenses-chart-ueH2HqL-pz)
 - Live Site URL: [Live Site](https://salmon982-expenses-chart.netlify.app/)
 
 ## My process
@@ -51,6 +51,6 @@ Users should be able to:
 ## Author
 
 - Website - [ern4o](https://www.ern4o.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/salmon982)
+- Frontend Mentor - [@salmon982](https://www.frontendmentor.io/profile/salmon982)
 - Behance - [@ern4o](https://www.behance.net/ern4o)
 
